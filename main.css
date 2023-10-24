@@ -41,9 +41,34 @@ Text-align: center;
   Background-color:	#f4f5f7;
 }
 .tabbed-nav__group{
+border-bottom:	1px solid #dfe1e6;
   border-bottom:	1px solid #dfe1e6;
 Display:flex;
 justify-content: center;
+}
+
+.tabbed-nav__link{
+Background-color:	white;
+Border:1px solid #dfe1e6;
+Border-bottom:0;
+Border-radius:	2px;
+Font-weight:Bold weight;
+Line-height:	20px;
+Padding:10px;
+Margin:0 5px;
+color:#172b4d;
+}
+
+.tabbed-nav__link{
+Background-color:	white;
+Border:1px solid #dfe1e6;
+Border-bottom:0;
+Border-radius:	2px;
+Font-weight:Bold weight;
+Line-height:	20px;
+Padding:10px;
+Margin:0 5px;
+color:#172b4d;
 }
 
 .tabbed-nav__link {
