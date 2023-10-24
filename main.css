@@ -14,9 +14,42 @@ Margin: 0px;
    justify-content: space-between;
 }
 
+.team__container{
+  Background-color:	#f4f5f7;
+Padding:32px;
+}
+.team__info{
+  Flex-direction:	column;
+Margin:0 auto;
+Max-width:650px;
+Text-align: center;
+}
+
+.team__info > h1{
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.team__info a{
+  color:	#172b4d;
+  Line-height:20px;
+  Font-weight: normal;
+}
+
+.tabbed-nav__container{
+  Background-color:	#f4f5f7;
+}
+.tabbed-nav__group{
+  Bottom-border:	1px solid #dfe1e6;
+Display:flex;
+justify-content: center;
+}
+
 /* Supplied CSS follows. */
 .header-nav__group{
-  display: flex;
+  margin: 0;
+  padding: 0 16px;
 }
 
 .header-nav__button {
@@ -64,4 +97,11 @@ Margin: 0px;
 
  .header-nav__button > i{
   width: 24px;
+}
+
+@media screen and (max-width: 730px) {
+.header-nav__search,
+.header-nav__boards {
+  display: none;
+ }
 }
