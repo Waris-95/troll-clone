@@ -1,4 +1,18 @@
 /* Your code here */
+body{
+  font-family:'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif ;
+  Font-size:	14px;
+Margin: 0px;
+}
+.header-nav__container{
+  Background-color:#026AA7;
+   Font-size:16px;
+   Line-height:20px;
+   Padding:4px;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
 
 /* Supplied CSS follows. */
 .header-nav__group{
